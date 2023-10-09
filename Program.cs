@@ -17,8 +17,6 @@ ProcessInput(Console.ReadLine() ?? "", ref FOLDERS);
 Console.Write("What is the maximum amount of files you like to create per folder? ");
 ProcessInput(Console.ReadLine() ?? "", ref FILES);
 
-Console.Write("Path where you want to generate the files? ");
-
 Console.WriteLine($"You have selected to create {FOLDERS} folders with a maximum number {FILES} files in each.");
 
 #if DEBUG
