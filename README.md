@@ -26,6 +26,10 @@ An example of how wild it can be, it takes just 27.5 seconds to generate 18,754 
 
 ![image](https://github.com/cmjchrisjones/FileAndFolderAutoGenerator/assets/3969086/820b1705-65f2-448c-bcf5-d5cf50baa647)
 
+## Running as a dotnet global tool
+
+I decided as part of a bit of fun to also create this as a dotnet tool. To install, simply run `dotnet tool update --global FileAndFolderGenerator`, once installed you can just run `GenerateDummyFilesAndFolders` and it will create the `files` directory in whatever folder you're currently in
+
 Enjoy 
 
 Chris
