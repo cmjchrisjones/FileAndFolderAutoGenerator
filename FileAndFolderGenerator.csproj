@@ -5,6 +5,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>GenerateDummyFilesAndFolders</ToolCommandName>
+	<PackageOutputPath>./nupkg</PackageOutputPath>
+	<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<LangVersion>latest</LangVersion>
   </PropertyGroup>
+	
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
